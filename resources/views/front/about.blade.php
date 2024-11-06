@@ -2,7 +2,6 @@
 @extends('Front.main')
 @section('content')
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga nulla voluptatibus cum labore, cupiditate laudantium nemo mollitia enim eos inventore tempore sint vitae doloribus itaque voluptate dignissimos quam. Iusto!</p>
 <div class="container-fluid bg-breadcrumb">
     <div class="container text-center py-5" style="max-width: 900px;">
         <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">About Us</h4>
@@ -10,7 +9,7 @@
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item"><a href="#">Pages</a></li>
             <li class="breadcrumb-item active text-primary">About</li>
-        </ol>    
+        </ol>
     </div>
 </div>
         <div class="container-fluid overflow-hidden about py-5">
@@ -27,7 +26,7 @@
                                 <div class="col-lg-6">
                                     <div class="about-item-inner border p-4">
                                         <div class="about-icon mb-4">
-                                            
+
                                             <img src="{{asset('assets/img/about-icon-1.png')}}" class="img-fluid w-50 h-50" alt="Icon">
                                         </div>
                                         <h5 class="mb-3">Our Vision</h5>
@@ -349,6 +348,6 @@
             </div>
         </div>
         <!-- Banner End -->
-        
-            
+
+
         @endsection
