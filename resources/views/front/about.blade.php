@@ -1,6 +1,8 @@
 
 @extends('Front.main')
 @section('content')
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga nulla voluptatibus cum labore, cupiditate laudantium nemo mollitia enim eos inventore tempore sint vitae doloribus itaque voluptate dignissimos quam. Iusto!</p>
 <div class="container-fluid bg-breadcrumb">
     <div class="container text-center py-5" style="max-width: 900px;">
         <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">About Us</h4>
