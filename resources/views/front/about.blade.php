@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container-fluid bg-breadcrumb">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quo consectetur facilis iusto voluptatibus voluptates consequatur tempora possimus recusandae repudiandae. Ut nihil similique accusantium molestias, porro molestiae soluta adipisci esse harum natus ipsam at sapiente, perferendis dignissimos et. Nam velit tempore quas vero totam nobis. Sed quisquam tempore earum inventore, error rerum, impedit ea, ipsam sit nemo asperiores fuga! Alias accusamus velit dignissimos ullam ipsam provident vitae quae cum repellendus, porro vero error eos repudiandae voluptatum. Libero, magnam! Iste harum sunt quas illum consequuntur, quos similique qui temporibus laborum alias quo sit ratione fugiat ullam repellat enim nobis repudiandae dignissimos!</p>
+   
     <div class="container text-center py-5" style="max-width: 900px;">
         <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">About Us</h4>
         <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
