@@ -1,5 +1,5 @@
 
-@extends('Front.main')
+@extends('front.main')
 @section('content')
 
 <div class="container-fluid bg-breadcrumb">
