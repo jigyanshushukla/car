@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CarController;
 
 Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
 Route::post('/register', [AuthController::class, 'register'])->name('register.submit');
@@ -28,6 +29,13 @@ Route::get('/team',[App\Http\Controllers\FrontController::class,'team'])->name('
 Route::get('/testimonial',[App\Http\Controllers\FrontController::class,'testimonial'])->name('front.testimonial');
 Route::get('/404',[App\Http\Controllers\FrontController::class,'404'])->name('front.404');
 Route::get('/contact',[App\Http\Controllers\FrontController::class,'contact'])->name('front.contact');
+
+
+
+Route::get('/car-reservation', [CarController::class, 'index'])->name('car.reservation');
+Route::post('/car-reservation', [CarController::class, 'store'])->name('car.store');
+
+
 
 
 
