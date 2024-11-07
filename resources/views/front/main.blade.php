@@ -142,11 +142,11 @@
                                                         <option selected>12:00AM</option>
                                                         <option value="1">1:00AM</option>
                                                         <option value="2">2:00AM</option>
-                                                        <option value="3">3:00AM</option>
+                                                        {{-- <option value="3">3:00AM</option>
                                                         <option value="4">4:00AM</option>
                                                         <option value="5">5:00AM</option>
                                                         <option value="6">6:00AM</option>
-                                                        <option value="7">7:00AM</option>
+                                                        <option value="7">7:00AM</option> --}}
                                                     </select>
                                                 </div>
                                             </div>
@@ -157,9 +157,9 @@
                                                     </div>
                                                     <input class="form-control" type="date">
                                                     <select class="form-select ms-3" aria-label="Default select example">
-                                                        <option selected>12:00AM</option>
+                                                        {{-- <option selected>12:00AM</option>
                                                         <option value="1">1:00AM</option>
-                                                        <option value="2">2:00AM</option>
+                                                        <option value="2">2:00AM</option> --}}
                                                         <option value="3">3:00AM</option>
                                                         <option value="4">4:00AM</option>
                                                         <option value="5">5:00AM</option>
