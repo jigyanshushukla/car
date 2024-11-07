@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FrontController;
 use App\Http\Controllers\AuthController;
 
 Route::get('/register', [AuthController::class, 'showRegisterForm'])->name('register');
@@ -19,16 +18,16 @@ Route::middleware('auth')->get('/dashboard', function () {
 
 
 
-Route::get('/',[FrontController::class,'index'])->name('front.main');
-Route::get('/about',[FrontController::class,'about'])->name('front.about');
-Route::get('/services',[FrontController::class,'services'])->name('front.services');
-Route::get('/blog',[FrontController::class,'blog'])->name('front.blog');
-Route::get('/feature',[FrontController::class,'feature'])->name('front.feature');
-Route::get('/cars',[FrontController::class,'cars'])->name('front.cars');
-Route::get('/team',[FrontController::class,'team'])->name('front.team');
-Route::get('/testimonial',[FrontController::class,'testimonial'])->name('front.testimonial');
-Route::get('/404',[FrontController::class,'404'])->name('front.404');
-Route::get('/contact',[FrontController::class,'contact'])->name('front.contact');
+Route::get('/',[App\Http\Controllers\FrontController::class,'index'])->name('front.main');
+Route::get('/about',[App\Http\Controllers\FrontController::class,'about'])->name('front.about');
+Route::get('/services',[App\Http\Controllers\FrontController::class,'services'])->name('front.services');
+Route::get('/blog',[App\Http\Controllers\FrontController::class,'blog'])->name('front.blog');
+Route::get('/feature',[App\Http\Controllers\FrontController::class,'feature'])->name('front.feature');
+Route::get('/cars',[App\Http\Controllers\FrontController::class,'cars'])->name('front.cars');
+Route::get('/team',[App\Http\Controllers\FrontController::class,'team'])->name('front.team');
+Route::get('/testimonial',[App\Http\Controllers\FrontController::class,'testimonial'])->name('front.testimonial');
+Route::get('/404',[App\Http\Controllers\FrontController::class,'404'])->name('front.404');
+Route::get('/contact',[App\Http\Controllers\FrontController::class,'contact'])->name('front.contact');
 
 
 
