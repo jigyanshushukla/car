@@ -13,5 +13,13 @@ class CarController extends Controller
         $locations = Location::all(); // Get all locations
         return view('cars.index', compact('cars', 'locations'));
     }
+    public function showBookingForm()
+{
+    $cars = Car::all(); // Retrieve car types from the database
+    $locations = Location::all(); // Retrieve locations from the database
+
+    return view('your_view_name', compact('cars', 'locations'));
+}
+
 }
 
