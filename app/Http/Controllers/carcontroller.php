@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Car;
+use App\Models\car;
 use App\Models\Location;
 
 class CarController extends Controller
