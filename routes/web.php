@@ -37,8 +37,8 @@ Route::get('/booking', [CarController::class, 'showBookingForm'])->name('booking
 
 
 
-Route::get('/car-reservation', [CarController::class, 'index'])->name('car.reservation');
-Route::post('/car-reservation', [CarController::class, 'store'])->name('car.store');
+Route::get('/index', [CarController::class, 'index'])->name('car.reservation');
+Route::post('/index', [CarController::class, 'store'])->name('car.store');
 
 
 
