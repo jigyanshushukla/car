@@ -10,7 +10,7 @@ class CarController extends Controller
     public function index()
     {
         $cars = Car::all(); 
-        $locations = Location::all(); // Get all locations
+        $locations = Location::all(); 
         return view('cars.index', compact('cars', 'locations'));
     }
 
