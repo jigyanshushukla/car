@@ -6,10 +6,18 @@ use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
-    public function index()
- {
-      return view('front.main');
- }
+  public function index()
+  {
+      // $cars = Car::take(10)->get(); 
+      // return view('front.main', compact('cars'));
+
+    $cars = Car::take(10)->get();
+    dd($cars); 
+    return view('front.main', compact('cars'));
+}
+
+  
+  
    public function about()
  {
       return view('front.about');

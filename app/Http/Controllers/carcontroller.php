@@ -11,7 +11,7 @@ class CarController extends Controller
     {
         $cars = Car::all(); 
         $locations = Location::all(); 
-        return view('cars.index', compact('cars', 'locations'));
+        return view('front.main', compact('cars', 'locations'));
     }
 
     // public function showBookingForm()
