@@ -32,13 +32,13 @@ Route::get('/404',[App\Http\Controllers\FrontController::class,'404'])->name('fr
 Route::get('/contact',[App\Http\Controllers\FrontController::class,'contact'])->name('front.contact');
 
 
-Route::get('/booking', [CarController::class, 'showBookingForm'])->name('booking.form');
+// Route::get('/booking', [CarController::class, 'showBookingForm'])->name('booking.form');
 
 
 
 
-Route::get('/index', [CarController::class, 'index'])->name('car.reservation');
-Route::post('/index', [CarController::class, 'store'])->name('car.store');
+Route::get('/main', [CarController::class, 'index'])->name('car.reservation');
+Route::post('/main', [CarController::class, 'store'])->name('car.store');
 
 
 
